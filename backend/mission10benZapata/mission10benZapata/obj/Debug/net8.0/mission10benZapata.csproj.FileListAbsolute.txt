@@ -125,3 +125,4 @@ C:\Users\bzapa\source\repos\mission10_benZapata\backend\mission10benZapata\missi
 C:\Users\bzapa\source\repos\mission10_benZapata\backend\mission10benZapata\mission10benZapata\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\bzapa\source\repos\mission10_benZapata\backend\mission10benZapata\mission10benZapata\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\bzapa\source\repos\mission10_benZapata\backend\mission10benZapata\mission10benZapata\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\bzapa\source\repos\mission10_benZapata\backend\mission10benZapata\mission10benZapata\obj\Debug\net8.0\mission10benZapata.sourcelink.json

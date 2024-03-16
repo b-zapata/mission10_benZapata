@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using mission10benZapata.Data;
 
@@ -10,9 +11,11 @@ using mission10benZapata.Data;
 namespace mission10benZapata.Migrations
 {
     [DbContext(typeof(BowlerContext))]
-    partial class BowlerContextModelSnapshot : ModelSnapshot
+    [Migration("20240316054015_Tak3")]
+    partial class Tak3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.3");

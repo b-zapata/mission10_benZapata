@@ -4,7 +4,7 @@ using mission10benZapata.Data;
 
 namespace mission10benZapata.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class BowlerController : ControllerBase
     {
