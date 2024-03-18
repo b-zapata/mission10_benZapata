@@ -18,7 +18,10 @@ namespace mission10benZapata.Controllers
         public IEnumerable<Bowler> Get()
         {
             {
-                var bowlerData = _bowlerRepository.Bowlers.ToArray();
+                // This will filter out the bowlers that are not in teams Sharsks or Marlins
+                var bowlerData = _bowlerRepository.Bowlers
+                    .Where(b => b.Team?.TeamName == "Sharks" ||  b.Team?.TeamName == "Marlins")
+                    .ToArray();
                 return bowlerData;
             }
         }
